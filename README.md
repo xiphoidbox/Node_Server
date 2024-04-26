@@ -1,3 +1,13 @@
+## Machine Learning Model Code
+
+For those interested in the underlying machine learning models and the code used for training, the following Colab notebooks are available:
+
+- **Mask Detection Model:** The model is built with TensorFlow and is trained to determine whether individuals in images are wearing masks. The code for this model can be accessed [here](https://colab.research.google.com/drive/1Z4UB3rhkJDJdTuyfrNFRJBVYR07d2a4t?usp=sharing).
+
+- **Spam Detection Model:** This model uses scikit-learn to classify emails as spam or not spam. The training code is available [here](https://colab.research.google.com/drive/1TgGTZpoEaxdNyWcPoc3Zh0NyMFf-y997?usp=sharing).
+
+These notebooks provide a detailed walkthrough of the data preprocessing, model building, training, and evaluation process.
+
 ## Key Features
 
 - **Mask Detection Service:** Built using TensorFlow and Flask, this service analyzes images to detect if a person is wearing a mask. The service is accessible via a REST API that expects POST requests containing image data.
