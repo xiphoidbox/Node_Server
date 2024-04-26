@@ -1,0 +1,53 @@
+# Compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Python-venv (if you use virtual environments)
+venv/
+*.venv/
+env/
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+nohup.out
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.vscode-server/
+.idea/
+*.swp
+*.swo
+
+# Machine Learning model and data files (if not to be versioned)
+*.h5
+*.pkl
+
+# Dependency directories
+jspm_packages/
+
+# Optional eslint cache
+.eslintcache
+
+# Miscellaneous
+*.tar.gz
+
+# Package lock files (included in source control by default, exclude if desired)
+# package-lock.json
+# yarn.lock
+
+# Backup files
+*.bak
+
+# Local history (can be used by some IDEs or tools)
+.history/
