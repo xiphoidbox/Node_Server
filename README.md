@@ -23,7 +23,7 @@ The services run on separate ports with Flask applications handling AI tasks and
 
 ## Machine Learning Model Code
 
-For those interested in the underlying machine learning models and the code used for training, the following Colab notebooks are available:
+For those who wish to explore the machine learning models and their training code, concise descriptions are provided alongside the Google Colab notebooks:
 
 - **Mask Detection Model:** The mask detection model is a convolutional neural network (CNN) trained to classify images as either containing individuals wearing masks or not. It utilizes TensorFlow for implementation. Initially, a dataset of labeled images is prepared, resized, and preprocessed for training. Data augmentation techniques like rotation, shifting, and flipping are applied to diversify the training set. The model architecture consists of convolutional layers followed by batch normalization and max-pooling, extracting features from images. To prevent overfitting, dropout and L2 regularization are incorporated. The model is trained using the Adam optimizer to minimize classification loss. After training, its performance is evaluated on a separate test set to measure its accuracy in distinguishing between masked and unmasked individuals. The code for this model can be accessed [here](https://colab.research.google.com/drive/1Z4UB3rhkJDJdTuyfrNFRJBVYR07d2a4t?usp=sharing).
 
