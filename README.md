@@ -2,13 +2,17 @@
 
 - **Mask Detection Service:** Built using TensorFlow and Flask, this service analyzes images to detect if a person is wearing a mask. The service is accessible via a REST API that expects POST requests containing image data.
 - **Spam Detection Service:** Utilizes machine learning models trained with scikit-learn and deployed using Flask to classify text as spam or not spam. The service offers an API endpoint for real-time spam detection and another for identifying common spam words in text.
-- **Proxy Server:** Developed with Express.js and secured with Helmet.js, this server acts as an intermediary to route requests to the appropriate Flask service. It supports CORS and integrates environment variables for enhanced configuration.
+- **Weather API:** A weather application that fetches current weather conditions and a 5-day forecast using the OpenWeatherMap API. The application provides temperature data in both Fahrenheit and Celsius and displays the information on a dynamic Leaflet map.
+- **Sudoku Solver:** An interactive Sudoku solver that generates and solves Sudoku puzzles. It uses backtracking algorithms to solve the puzzles step-by-step and visually displays the solving process.
+- **Proxy Server:** This page provides access to the source code for both the Node server and the front end server. It features two buttons that link directly to the respective repositories.
 
 ## Technologies Used
 
 - **Backend:** Flask, Express.js, TensorFlow, scikit-learn
+- **Frontend:** Bootstrap, jQuery, Leaflet, Google Fonts
 - **Security:** Helmet.js, CORS
 - **Data Handling:** PIL for image processing, joblib for model loading
+- **Weather API Integration:** OpenWeatherMap API
 - **Logging and Monitoring:** Morgan for logging HTTP requests
 
 ## Environment Setup
@@ -20,6 +24,8 @@ The services run on separate ports with Flask applications handling AI tasks and
 - `/mask_detector` - Contains the Flask application for the mask detection service.
 - `/spam_detector` - Contains the Flask application for spam detection.
 - `/proxy_server` - Contains the Express.js application that routes requests to the Flask services.
+- `/weather` - Contains the frontend application for the weather service.
+- `/sudoku` - Contains the frontend application for the Sudoku solver.
 
 ## Machine Learning Model Code
 
